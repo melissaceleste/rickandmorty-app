@@ -4,9 +4,22 @@
   text-align: center;
   border-radius: 10px;
   width: 300px;
-  margin: 10px;
+  margin: 10px 20px;
+  box-shadow: 2px 3px pink;
 }
 
 .img {
   border-radius: 47% 53% 37% 63% / 26% 36% 64% 74%;
+  box-shadow: 2px 3px pink;
+}
+
+.button {
+  border-radius: 10px;
+  /* background-image: url('../../images/button_down.svg');
+  background-size: cover; */
+}
+
+.ul {
+  text-align: left;
+  margin-left: 60px;
 }

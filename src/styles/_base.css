@@ -2,4 +2,33 @@
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  align-items: center;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.Header {
+  background: pink;
+  border-radius: 20px;
+  color: var(--color-white);
+  padding: 12px;
+  width: 90%;
+  position: 0;
+}
+
+.Navigation {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  background-color: pink;
+  box-shadow: 1px 2px lightgray;
+  padding: 10px;
+  width: 90%;
+  /* position: fixed; */
+}
+
+.Navigation__button {
+  border-radius: 50%;
+  background-color: plum;
+  box-shadow: 1px 2px lightgray;
 }
