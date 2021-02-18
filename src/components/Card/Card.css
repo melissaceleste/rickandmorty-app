@@ -8,6 +8,17 @@
   box-shadow: 2px 3px pink;
 }
 
+.absolute {
+  position: absolute;
+  margin-top: 15px;
+}
+
+.species_images {
+  position: relative;
+  top: -6%;
+  left: 48%;
+}
+
 .img {
   border-radius: 47% 53% 37% 63% / 26% 36% 64% 74%;
   box-shadow: 2px 3px pink;

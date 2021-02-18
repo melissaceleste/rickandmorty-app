@@ -1,37 +1,11 @@
 .App {
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
+  padding: 0;
   text-align: center;
   align-items: center;
   font-family: sans-serif;
   height: 100vh;
-}
-
-.Header {
-  background: pink;
-  border-radius: 20px;
-  color: var(--color-white);
-  padding: 12px;
-  width: 100%;
-  position: 0;
-  box-shadow: 1px 2px #eee;
-}
-
-.Navigation {
-  display: flex;
-  justify-content: space-around;
-  border-radius: 20px;
-  background-color: pink;
-  box-shadow: 1px 2px lightgray;
-  padding: 10px;
-  width: 100%;
-
-  /* position: fixed; */
-}
-
-.Navigation__button {
-  border-radius: 50%;
-  background-color: plum;
-  box-shadow: 1px 2px lightgray;
+  width: 375px;
+  font-size: 112.5%;
+  line-height: 1.5;
+  margin: 0;
 }

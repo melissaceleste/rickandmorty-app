@@ -1,0 +1,23 @@
+.Navigation {
+  margin-left: 3px;
+  bottom: 10px;
+  left: 0px;
+  position: absolute;
+  width: 98%;
+  background: pink;
+  border-radius: 20px;
+  color: white;
+  padding: 12px;
+  box-shadow: 1px 2px #eee;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: stretch;
+}
+
+.Navigation__button {
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  box-shadow: 1px 2px lightgray;
+  font-size: 14px;
+}
