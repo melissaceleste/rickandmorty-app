@@ -82,7 +82,11 @@ export default function App() {
         hidden={currentPage !== 'Page0'}
         title="Page0"
       />
-      <Page1 hidden={currentPage !== 'Page1'} title="Page1" />
+      <Page1
+        currywurst={characters}
+        hidden={currentPage !== 'Page1'}
+        title="Character Search"
+      />
       <Page2 hidden={currentPage !== 'Page2'} title="Page2" />
       <Page3 hidden={currentPage !== 'Page3'} title="Page3" />
       <Navigation onNavigate={setCurrentPage} />

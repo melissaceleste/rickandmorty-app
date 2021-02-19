@@ -1,1 +1,25 @@
-/* hier folgt noch was */
+.Page1 {
+  top: 15%;
+  height: 80%;
+  position: relative;
+  overflow: auto;
+  width: 100%;
+}
+
+.filter_container {
+  border: 1px solid #eee;
+  margin: 20px;
+  box-shadow: 2px 2px #eee;
+}
+
+.filter_container_heading {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 20px;
+  box-shadow: 2px 2px #eee;
+}
+
+.filter_input {
+  width: 300px;
+  margin-bottom: 20px;
+}
