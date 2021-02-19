@@ -1,14 +1,12 @@
 import '../Page0/Page0.css'
 import Card from '../Card/Card'
-import data from '../../rickandmortyapi.json'
-// import React, { useState } from 'react'
 
-export default function Page0({ title, hidden }) {
+export default function Page0({ title, hidden, currywurst }) {
   return (
     <section hidden={hidden} className="Page0">
       {title}
 
-      {data.results.map(character => (
+      {currywurst.map(character => (
         <Card
           key={character.id}
           name={character.name}

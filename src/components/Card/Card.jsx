@@ -75,21 +75,6 @@ export default function Card({ name, species, image, status, gender, origin }) {
           </defs>
         </svg>
       </div>
-      {/* 
-      <button
-        className="button"
-        onClick={event => {
-          event.stopPropagation()
-          setIsTextVisible(!isTextVisible)
-        }}
-      >
-        <img
-          src="../../../public/button_down.svg"
-          width="10px"
-          height="10px"
-          alt="show more information"
-        />
-      </button> */}
 
       <section hidden={!isTextVisible}>
         <ul className="ul">
