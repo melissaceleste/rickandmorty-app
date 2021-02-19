@@ -1,5 +1,7 @@
 import '../Card/Card.css'
 import React, { useState } from 'react'
+import aliensrc from '../../images/alien.png'
+import humansrc from '../../images/human.png'
 
 export default function Card({ name, species, image, status, gender, origin }) {
   const [isTextVisible, setIsTextVisible] = useState(false)
@@ -7,30 +9,35 @@ export default function Card({ name, species, image, status, gender, origin }) {
 
   const Human = (
     <img
-      src="../../../public/human.png"
+      src={humansrc}
       width="50px"
       height="50px"
       alt="human"
+      className="species_images"
     />
   )
   const Alien = (
     <img
-      src="../../../public/alien.png"
+      src={aliensrc}
       width="50px"
       height="50px"
       alt="alien"
+      className="species_images"
     />
   )
 
   return (
     <section className="Card">
-      <strong> {name} </strong>
+      <p className="absolute">
+        <strong> {name} </strong>
+      </p>
       {species === 'Human' ? Human : Alien}
       <p>{<img className="img" src={image} alt="" width="200px" />}</p>
 
       <div class="buttons">
         <button
           className="button"
+          // title={isTextVisible ? 'hide Details!' : 'show details!'}
           onClick={event => {
             event.stopPropagation()
             setIsTextVisible(!isTextVisible)
@@ -68,21 +75,6 @@ export default function Card({ name, species, image, status, gender, origin }) {
           </defs>
         </svg>
       </div>
-      {/* 
-      <button
-        className="button"
-        onClick={event => {
-          event.stopPropagation()
-          setIsTextVisible(!isTextVisible)
-        }}
-      >
-        <img
-          src="../../../public/button_down.svg"
-          width="10px"
-          height="10px"
-          alt="show more information"
-        />
-      </button> */}
 
       <section hidden={!isTextVisible}>
         <ul className="ul">

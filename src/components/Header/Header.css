@@ -1,0 +1,13 @@
+.Header {
+  top: 10px;
+  position: fixed !important;
+  position: absolute;
+  z-index: 100;
+  background: pink;
+  border-radius: 20px;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  box-shadow: 1px 2px #eee;
+  overflow: hidden;
+}
