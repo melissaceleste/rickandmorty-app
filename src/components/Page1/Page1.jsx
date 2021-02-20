@@ -65,6 +65,9 @@ export default function Page1({ title, hidden, currywurst }) {
             onChange={event => setUserInput(event.target.value)}
             placeholder="Filter name"
           />
+          {/* bei der Eingabe des Users, soll sich der Buchstabe des Users, bei den Namen der Charaktere verfärben
+          - 
+           */}
         </div>
       </section>
       <p className="filter_container_heading"> Reset Results </p>

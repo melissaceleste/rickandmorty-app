@@ -1,7 +1,10 @@
 .Page0 {
   top: 15%;
   height: 80%;
+  left: 10%;
   position: relative;
   overflow: auto;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }

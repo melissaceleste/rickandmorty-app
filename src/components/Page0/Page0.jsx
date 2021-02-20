@@ -1,20 +1,18 @@
 import '../Page0/Page0.css'
-import Card from '../Card/Card'
+import SmallCard from '../SmallCard/SmallCard'
 
-export default function Page0({ title, hidden, currywurst }) {
+// import { ReactComponent as Liked } from '@fortawesome/fontawesome-free/svgs/solid/heart.svg'
+
+export default function Page0({ hidden, currywurst }) {
+  // const liked = <Liked />
+
   return (
     <section hidden={hidden} className="Page0">
-      {title}
-
       {currywurst.map(character => (
-        <Card
-          key={character.id}
-          name={character.name}
-          species={character.species}
+        <SmallCard
+          likeCharacter={character.isLiked}
           image={character.image}
-          status={character.status}
-          gender={character.gender}
-          origin={character.origin.name}
+          name={character.name}
         />
       ))}
     </section>
