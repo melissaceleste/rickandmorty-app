@@ -4,7 +4,33 @@ figure {
 
 figCaption {
   font-size: 14px;
+  margin-bottom: 10px;
 }
 img {
   border-radius: 50px;
+}
+
+.votingContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.upvoting {
+  width: 32px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+}
+
+.downvoting {
+  width: 30px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+}
+
+.relative {
+  position: relative;
+  top: 38%;
+  left: -9%;
 }
