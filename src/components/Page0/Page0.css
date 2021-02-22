@@ -4,9 +4,18 @@
   position: relative;
   overflow: auto;
   width: 100%;
+
+  justify-content: space-evenly;
+}
+
+.page0Container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.hidden {
+  display: hidden;
 }
 
 *,

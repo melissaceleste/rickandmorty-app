@@ -8,6 +8,8 @@ figCaption {
 }
 img {
   border-radius: 50px;
+  border: 4px solid #eee;
+  box-shadow: 1px 3px #eee;
 }
 
 .votingContainer {
@@ -18,15 +20,24 @@ img {
 .upvoting {
   width: 32px;
   height: 25px;
-  background-color: transparent;
-  border: none;
+  color: #b6eebd;
+}
+.colorUpVotes {
+  color: #b6eebd;
+}
+
+.upvotingClicked {
+  color: black;
 }
 
 .downvoting {
   width: 30px;
   height: 25px;
-  background-color: transparent;
-  border: none;
+  color: pink;
+}
+
+.colorDownVotes {
+  color: pink;
 }
 
 .relative {
